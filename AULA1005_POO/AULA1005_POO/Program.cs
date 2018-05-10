@@ -21,7 +21,7 @@ namespace AULA1005_POO
             Console.WriteLine(cpfCliente);
 
             Cliente cli2 = new Cliente("Joao");
-            Console.WriteLine("nome:" + cli2.Nome);
+            Console.WriteLine("cli2.Nome:" + cli2.Nome);
 
 
 

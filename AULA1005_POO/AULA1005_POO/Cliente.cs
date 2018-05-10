@@ -9,6 +9,8 @@ namespace AULA1005_POO
     class Cliente : Pessoa
     {
 
+        public DateTime DataNascimento { get; set; }
+
         public Cliente()
         {
 
