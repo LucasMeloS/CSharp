@@ -11,6 +11,14 @@ namespace AULA1005_POO
 
         public DateTime DataNascimento { get; set; }
 
+        public string DataqueNasceu
+        {
+            get
+            {
+                return DataNascimento.ToShortDateString();
+            }
+        }
+
         public Cliente()
         {
 
@@ -21,7 +29,16 @@ namespace AULA1005_POO
             {
                 Nome = nome;
             }
-       
+
+        //public DateTime hoje { get; set; }
+
+        public string Idade
+        {
+            get
+            {
+                return DateTime.Today.Year - DataNascimento.Year;
+            }
+        }
 
     }
 }
