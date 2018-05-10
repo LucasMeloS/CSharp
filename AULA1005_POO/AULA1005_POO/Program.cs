@@ -13,6 +13,13 @@ namespace AULA1005_POO
             Cliente cli = new Cliente();
             cli.Nome = "Godofredo";  //set
             string nomeCliente = cli.Nome; //get
+
+            cli.Cpf = "12345678901";  //set
+            string cpfCliente = cli.Cpf ; //get
+
+            Console.WriteLine(nomeCliente);
+            Console.WriteLine(cpfCliente);
+
         }
     }
 }

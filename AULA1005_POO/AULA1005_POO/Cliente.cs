@@ -9,8 +9,13 @@ namespace AULA1005_POO
     class Cliente
     {
 
+        //Atributo
+
         private string nome;
-        private string cpf;
+
+        //Propriedade
+
+        public string Cpf { get; set; }
 
         public string Nome
         {
@@ -24,5 +29,14 @@ namespace AULA1005_POO
                 nome = value;
             }
         }
+
+        //Construtor
+
+       // public Cliente(string nome) // construtor 
+        //{
+            //Nome = nome;
+       // }
+
+
     }
 }
