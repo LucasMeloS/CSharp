@@ -6,37 +6,20 @@ using System.Threading.Tasks;
 
 namespace AULA1005_POO
 {
-    class Cliente
+    class Cliente : Pessoa
     {
 
-        //Atributo
-
-        private string nome;
-
-        //Propriedade
-
-        public string Cpf { get; set; }
-
-        public string Nome
+        public Cliente()
         {
-            get
-            {
-                return nome;
-            }
 
-            set
-            {
-                nome = value;
-            }
         }
 
-        //Construtor
-
-       // public Cliente(string nome) // construtor 
-        //{
-            //Nome = nome;
-       // }
-
+        public Cliente(string nome )
+       
+            {
+                Nome = nome;
+            }
+       
 
     }
 }
