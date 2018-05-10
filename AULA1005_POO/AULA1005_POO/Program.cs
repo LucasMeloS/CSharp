@@ -10,7 +10,9 @@ namespace AULA1005_POO
     {
         static void Main(string[] args)
         {
-             
+            Cliente cli = new Cliente();
+            cli.Nome = "Godofredo";  //set
+            string nomeCliente = cli.Nome; //get
         }
     }
 }
