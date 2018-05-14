@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AULA1005_POO", "AULA1005_POO\AULA1005_POO.csproj", "{E5F724B4-3F59-4F76-A492-D97C57D6F96E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula1405_interfaces", "Aula1405_interfaces\Aula1405_interfaces.csproj", "{957E3743-74DC-4523-B35C-FC9796AD3E66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E5F724B4-3F59-4F76-A492-D97C57D6F96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5F724B4-3F59-4F76-A492-D97C57D6F96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5F724B4-3F59-4F76-A492-D97C57D6F96E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957E3743-74DC-4523-B35C-FC9796AD3E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957E3743-74DC-4523-B35C-FC9796AD3E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957E3743-74DC-4523-B35C-FC9796AD3E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957E3743-74DC-4523-B35C-FC9796AD3E66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
