@@ -10,6 +10,11 @@ namespace Aula1405_interfaces
     {
         public int Velocidade { get; set; }
 
+        //chave para o obj marca
+        public int MarcaID { get; set; }
+
+        //propriedade de navegação
+        public virtual Marca _Marca { get; set; }
 
         public Onibus()
         {
@@ -28,6 +33,14 @@ namespace Aula1405_interfaces
         {
             Velocidade -= 5; ;
         }
+
+        public string ImprimirInfo()
+        {
+            return "onibus velocidade atual:" + Velocidade;
+        }
+
+
+
     }
 }
 

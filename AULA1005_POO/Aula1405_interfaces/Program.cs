@@ -19,15 +19,32 @@ namespace Aula1405_interfaces
             car.Acelerar();
             car.Desacelerar();
             Console.WriteLine("Velocidade Atual:" + car.Velocidade);
+            AcelerarBastante(car);
+            car.ImprimirInfo();
             Console.WriteLine("Velocidade inicial do bus:" + oni.Velocidade);
             oni.Acelerar();
             oni.Acelerar();
             oni.Desacelerar();
             Console.WriteLine("Velocidade Atual do bus:" + oni.Velocidade);
+            AcelerarBastante(oni);
+            oni.ImprimirInfo();
 
             Console.ReadKey();
+        }
+
+
+        static void AcelerarBastante (IMeioTransporte meioTransporte)
+        {
+            for (int i = 0; i < 20; i++)
+            {
+                meioTransporte.Acelerar();
+            }
+
 
 
         }
+
+       
+
     }
-}
+    }
