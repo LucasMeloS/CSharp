@@ -11,7 +11,7 @@ namespace Aula1405_interfaces
         static void Main(string[] args)
         {
 
-            interface I
+
 
         }
     }
