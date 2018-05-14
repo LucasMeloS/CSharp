@@ -44,7 +44,34 @@ namespace Aula1405_interfaces
 
         }
 
+        static void CriarRelacionamento()
+        {
+            Carro c = new Carro();
+            c.modelo = "Corsa";
+
+            Marca m = new Marca();
+            m.nome = "Chevrolet";
+
+            c._Marca = m;
+
+            c.Rodas = new List<Roda>();
+            Roda r1 = new Roda();
+            c.Rodas.Add(r1)
        
+
+            Onibus o = new Onibus();
+            o.modelo = "3100";
+
+            o._Marca = m;
+
+ 
+
+
+
+        }
+
+
+
 
     }
     }

@@ -11,6 +11,8 @@ namespace Aula1405_interfaces
 
         int Velocidade { get; set; }
 
+        string modelo { get; set; }
+
         void Acelerar();
 
         void Desacelerar();
