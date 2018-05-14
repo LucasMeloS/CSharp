@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace Aula1405_interfaces
 {
-    class Program
+    interface IMeioTransporte
     {
-        static void Main(string[] args)
-        {
 
-            interface I
+        void Acelerar();
 
-        }
+        void Desacelerar();
     }
 }
